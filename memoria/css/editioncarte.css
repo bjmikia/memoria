@@ -1,0 +1,228 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Regular';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Amiri-Regular';
+    src: url('../font/Amiri-Regular.ttf') format("truetype");
+}
+/* debut */
+h1{
+	font-family: "Bellota-Bold", sans-serif;
+	font-size: 60px;
+	color : black;
+	left: 670px;
+	position: relative;
+	top : 50px;
+	width: max-content;
+	
+}
+div.debut{
+	font-size: 60px;
+	position: relative;
+	width: max-content;
+	left : 650px;
+	
+	color : black;
+}
+
+/* bouton accueil et retour */
+
+div.accueil a{
+	font-family: "Sen-Regular", sans-serif;
+	font-size: 30px;
+	width : 60px;
+	position: relative;
+	left: 1650px;
+	bottom: 100px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 15px 13px;
+	border-radius: 10px;
+}
+
+div.retour a{
+	font-family: "Sen-Regular", sans-serif;
+	font-size: 30px;
+	width : 60px;
+	position: relative;
+	left: 1650px;
+	bottom: 70px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 15px 19px;
+	border-radius: 10px;
+}
+
+/* tout sauf debut */
+
+p{
+	position: relative;
+	z-index: 2;
+	font-family: "Amiri-Regular", sans-serif;
+	text-align: center;
+	font-size: 20px;
+	top : 40px;
+}
+div.content{
+	font-size: 20px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	width: max-content;
+	left: 710px;
+	
+}
+
+
+/* les champs d'écritures*/
+ div.formulaire input {
+ 	border-radius: 10px;
+ 	position: relative;
+ 	z-index: 2;
+ 	width: 200px;
+	height: 30px;
+ }
+/* juste pour centrer proposition avec le reste */
+ div.proposition input {
+ 	z-index: 2;
+ 	position: relative;
+ 	left: 105px;
+ }
+
+ /* explication */
+ 
+ div.exp {
+ 	position: relative;
+ 	top: 60px;
+	left: 120px;
+	width:max-content;
+ }
+
+div.exp input{
+
+	border-radius: 10px;
+ 	position: relative;
+ 	z-index: 2;
+ 	width: max-content;
+	height: 30px;
+
+}
+/* bouton */ 
+
+div.bouton input{
+	font-family: "Amiri-Regular", sans-serif;
+	font-size: 20px;
+	position: relative;
+	z-index: 2;
+	width: 300px;
+	height: 40px;
+	top: 100px;
+	border-radius: 10px;
+	left: 50px;
+}
+
+/*Les images */
+
+div.image {
+	width: max-content;
+	height: 730px;
+	position: absolute;
+	z-index: 1;
+	top:200px;
+	bottom: 10px;
+}
+div.image div.img{
+	position: relative;
+	width : max-content;
+	left : 100px;
+}
+
+div.image div.img2{
+	position: relative;
+	width : max-content;
+	bottom: 250px;
+	left : 1400px;
+}
+
+div.image div.img3{
+	position: relative;
+	width : max-content;
+	left : 100px;
+}
+
+div.image div.img4{
+	position: relative;
+	width : max-content;
+	bottom: 285px;
+	left : 1370px;
+}
+
+/* Les reseaux */
+
+
+div.reseau {
+	position : relative;
+	width : max-content;
+	left : 1650px;
+	top : 140px;
+}
+
+div.reseaux{
+	position : relative;
+	width : max-content;
+	left : 1700px;
+	top: 140px;
+}
+div.reseaux a.n{
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+	position : relative;
+	width: max-content;
+	left: 60px;
+	top : 20px;
+}
+
+h4{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Amiri-Regular", sans-serif;
+	position: relative;
+	top : 110px;
+	color : black;
+}
+div{
+	width: max-content;
+	
+}

@@ -1,0 +1,183 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Amiri-Regular';
+    src: url('../font/Amiri-Regular.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+
+/* Matière*/
+
+h2{
+	font-family: "Bellota-Bold", sans-serif;
+	/*text-align: center;*/
+	font-size: 50px;		
+	position: relative;
+	width:500px;
+	left : 700px;
+	color : black;
+}
+
+div.question{
+	width : 410px;		
+	position: relative;
+	left : 580px;
+
+}
+
+form{
+	position: relative;
+	width: 380px;
+	left : 620px;
+}
+
+
+/* front */div.image{
+	position: absolute;
+	z-index: 1;
+	bottom:10px;
+	top : 180px;
+	left: 640px;
+}
+/* ecriture */
+div.ecriture{
+	position: relative;
+	z-index: 2;
+	font-family: "Sen-Bold", sans-serif;
+	font-size: 20px;
+	left: 200px;
+	
+	
+}
+div.ecriture2{
+	position: relative;
+	z-index: 2;
+	font-family: "Sen-Bold", sans-serif;
+	font-size: 20px;
+	color: white;
+	left: 780px;
+	width: 410px;
+
+}
+div.ecriture2 h3{
+	position: relative;
+	color: white;
+	font-size: xx-large;
+	
+}
+input {
+	position:relative;
+	z-index: 2;
+	border-radius: 10px;
+	font-size: 30px;
+}
+ /* accueil */
+ div.accueil a{
+	font-family: "Sen-Regular", sans-serif;
+	border-radius: 10px;
+	font-size: 30px;
+	width : max-content;
+	position: relative;
+	left: 1685px;
+	top : 60px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+ 
+
+/*suivant*/
+
+div.suivant1 a{
+	font-family: "Sen-Regular", sans-serif;
+	text-decoration: none;
+	color: black;
+}
+div.suivant1{
+	border-radius: 10px;
+	width : max-content;
+	background-image: url("../img/editer4.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+div.suivant2 a{
+	text-decoration: none;
+	color: black;
+}
+div.suivant2{
+	border-radius: 10px;
+	width :max-content;
+	background-image: url("../img/editer4.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+/* Les reseaux */
+
+
+ div.reseau {
+	position : relative;
+	width : max-content; 
+	left : 1650px;
+	top : 100px;
+}
+
+div.reseaux{
+	position : relative;
+	width : max-content;
+	left : 1700px;
+	top : 100px;
+}
+div.reseaux a.n{
+
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+	color : black;
+	position : relative;
+	width: max-content;
+	left: 60px;
+	top : 7px;
+}
+
+h4{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+div{
+
+	width: max-content;
+}

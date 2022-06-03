@@ -1,0 +1,81 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Regular';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+	
+div.supp {
+	font-family: "Sen-Bold", sans-serif;
+	text-align: center;
+	color : black;
+	font-size: 40px;
+}
+
+div.confirmation{
+	position: relative;
+	top : 40px;
+}
+
+input{
+	font-family: "Sen-Bold", sans-serif;
+	z-index: 2;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+/* Les reseaux */
+
+
+ div.reseau {
+	position : relative;
+	width : 250px;
+	left : 1650px;
+	top : 100px;
+}
+
+div.reseaux{
+	position : relative;
+	width : 200px;
+	left : 1700px;
+	top : 100px;
+}
+div.reseaux a.n{
+
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+	color : black;
+	position : relative;
+	width: 140px;
+	left: 60px;
+	top : 7px;
+}
+
+h4{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+}

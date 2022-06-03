@@ -1,0 +1,137 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Amiri-Regular';
+    src: url('../font/Amiri-Regular.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Regular';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Bold.ttf') format("truetype");
+}
+/*nom du paquet*/
+
+h1{
+	font-family: "Bellota-Bold", sans-serif;
+	font-size: 60px;
+	color : black;
+	text-align: center;
+	position: relative;
+	top : 50px;
+}
+
+/* bouton accueil et retour */
+
+div.accueil a{
+	font-family: "Sen-Regular", sans-serif;
+	font-size: 30px;
+	width : 60px;
+	position: relative;
+	left: 1650px;
+	bottom: 70px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 15px 13px;
+	border-radius: 10px;
+}
+
+div.retour a{
+	font-family: "Sen-Regular", sans-serif;
+	font-size: 30px;
+	width : 60px;
+	position: relative;
+	left: 1650px;
+	bottom: 10px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 15px 19px;
+	border-radius: 10px;
+}
+
+/* tout sauf debut */
+
+div.content, p{
+	z-index: 2;
+	font-family: "Sen-Bold", sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* ajouter et supprimer */
+div.add a{
+	border-radius: 10px;
+	width : 270px;
+	background-image: url("../img/editer4.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+	font-family: "Sen-Regular", sans-serif;
+	text-decoration: none;
+	color: black;
+}
+/* Les reseaux */
+
+
+div.reseau {
+	position : relative;
+	width : 250px;
+	left : 1650px;
+	top : 50px;
+}
+
+div.reseaux{
+	position : relative;
+	width : 200px;
+	left : 1700px;
+	top : 50px;
+}
+
+div.reseaux a.n{
+
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+	position : relative;
+	width: 110px;
+	left: 60px;
+	top : 7px;
+}
+
+h4{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}

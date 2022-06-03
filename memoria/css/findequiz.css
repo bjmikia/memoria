@@ -1,0 +1,113 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Amiri-Regular';
+    src: url('../font/Amiri-Regular.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+
+/* Matière*/
+
+h2{
+	font-family: "Bellota-Bold", sans-serif;
+	font-size: 50px;
+}
+
+/*les ecritures*/
+
+div.ecriture {
+	font-family: "Sen-Bold", sans-serif;
+	font-size: 25px;
+}
+
+
+/* accueil */
+ div.accueil a{
+	font-family: "Sen-Regular", sans-serif;
+	border-radius: 10px;
+	font-size: 30px;
+	width : 50px;
+	position: relative;
+	left: 1685px;
+	top : 60px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+/* Cartes memoires */
+div.cartes a{
+	font-family: "Sen-Regular", sans-serif;
+	border-radius: 10px;
+	font-size: 25px;
+	width : 100px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/editer4.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+/* Les reseaux */
+
+
+ div.reseau {
+	position : relative;
+	width : 250px;
+	left : 1650px;
+	top : 100px;
+}
+
+div.reseaux{
+	position : relative;
+	width : 200px;
+	left : 1700px;
+	top : 100px;
+}
+div.reseaux a.n{
+
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+	color : black;
+	position : relative;
+	width: 140px;
+	left: 60px;
+	top : 7px;
+}
+
+h4{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+

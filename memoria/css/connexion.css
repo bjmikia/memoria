@@ -1,0 +1,171 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Amiri-Regular';
+    src: url('../font/Amiri-Regular.ttf') format("truetype");
+}
+/* titre*/
+
+div.debut{
+	font-family: "Bellota-Bold", sans-serif;
+	font-size: 60px;
+	position: relative;
+	width: max-content;
+	left : 500px;
+	top : 50px;
+	color : black;
+}
+
+
+/*formulaire*/
+
+label{
+	width: max-content;
+	font-family: "Amiri-Regular", sans-serif;
+	font-size: 25px;
+}
+
+form{
+	width: max-content;
+	z-index: 2;
+	position: relative;
+	bottom: 100px;
+	align-content: center;
+    left: 800px;
+	
+}
+
+div.bouton input{
+	z-index: 2;
+	font-family: "Amiri-Regular", sans-serif;
+	font-size: 20px;
+	position: relative;
+	width: 300px;
+	height: 40px;
+	top : 20px;
+	border-radius: 10px;
+}
+
+div.formulaire{
+	width: max-content;
+}
+p input{
+	z-index: 2;
+	width: 300px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+div.erreur{
+	width: max-content;
+	text-align: center;
+	font-family: "Amiri-Regular", sans-serif;
+	font-size: 40px;
+	position: relative;
+	bottom : 100px;
+	left: 600px;
+
+}
+/* inscription*/
+
+div.quoi p{
+	z-index: 2;
+	font-family: "Amiri-Regular", sans-serif;
+	font-size: 20px;
+	position: relative;
+	width: max-content;
+	left : 800px;
+	bottom : 70px;
+	color : black;
+}
+
+/*Les images */
+
+div.image {
+	width: max-content;
+	height: 730px;
+	position: absolute;
+	z-index: 1;
+	top:200px;
+	bottom: 10px;
+}
+div.image div.img{
+	position: relative;
+	width: max-content;
+	left : 250px;
+}
+
+div.image div.img2{
+	position: relative;
+	width: max-content;
+	bottom : 150px;
+	left : 1400px;
+}
+
+div.image div.img3{
+	position: relative;
+	width: max-content;
+	left : 250px;
+}
+
+div.image div.img4{
+	position: relative;
+	width: max-content;
+	bottom: 160px;
+	left : 1340px;
+}
+
+/* Les reseaux */
+
+
+div#content div.reseau {
+	position : relative;
+	width: max-content;
+	left : 1650px;
+	top : 30px;
+}
+
+div#content div.reseaux{
+	position : relative;
+	width: max-content;
+	left : 1700px;
+	top : 30px;
+}
+div#content div.reseaux a.n{
+	width: max-content;
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	width: max-content;
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+	position: relative;
+	left : 50px;
+}
+
+h4{
+	width: max-content;
+	font-family: "Amiri-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	width: max-content;
+	font-family: "Amiri-Regular", sans-serif;
+}

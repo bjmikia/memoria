@@ -1,0 +1,196 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background3.jpg") ;
+	background-position:50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Regular';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+ /* Titre*/
+
+h1{
+	font-family: "Bellota-Bold", sans-serif;
+	color : black;
+	font-size: 80px;
+	position : relative;
+	bottom : 30px;
+	margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+	background-color: #fffffff5;
+	border-radius: 10px;
+}
+
+/* bouton inscription*/
+nav.inscription ul li a{
+	width : 10px;
+	position: relative;
+	left: 1650px;
+	bottom: 80px;
+}
+
+nav.inscription ul li{
+	list-style-type: none;
+	font-size: 30px;
+}
+
+nav.inscription ul li a{
+	font-family: "Sen-Regular", sans-serif;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button3.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+	border-radius: 10px;
+}
+
+ /*bouton connexion */
+
+nav.connexion ul li a{
+	width : 10px;
+	position: relative;
+	left: 1650px;
+	bottom: 30px;
+}
+
+nav.connexion ul li{
+	list-style-type: none;
+	font-size: 30px;
+}
+
+nav.connexion ul li a{
+	font-family: "Sen-Regular", sans-serif;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button3.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+	border-radius: 10px;
+}
+
+/* la bande de bienvenue */
+
+div#content div.bienvenue{
+	width : 45%;
+	position : relative;
+	left : 560px;
+}
+
+div#content div.bienvenue p{
+	font-family: "Sen-Bold", sans-serif;
+	font-size: 20px;
+}
+
+
+/* A propos / contact */
+div.contact p{
+	font-family: "Sen-Bold", sans-serif;
+	color : black;
+	font-size: 20px;
+}
+
+div#content div.contact {
+	width: 48%;
+	position : relative;
+	left : 560px;
+	
+	
+}
+div#content div.contact p{   
+	display:table;
+ } /* simule le comportement d'une table avec des colonnes */
+
+span{
+	display: table-cell;
+	vertical-align:middle; 
+}
+
+div#content div.contact img{
+margin: 0 20px 0 0;
+}
+
+nav.contact2 ul li{
+	font-family: "Sen-Bold", sans-serif;
+	list-style-type: none;
+	font-size: 30px;
+}
+
+nav.contact2 ul li a{
+	font-family: "Sen-Bold", sans-serif;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	left : 100px;
+	top : 40px ;
+}
+
+nav.contact2 ul li a:hover{
+ text-decoration: underline;
+
+}
+
+/* Les reseaux */
+
+
+div#content div.reseau {
+	position : relative;
+	width : 250px;
+	left : 1650px;
+	top : 50px;
+}
+
+div#content div.reseaux{
+	position : relative;
+	width : 200px;
+	left : 1700px;
+	top : 50px;
+}
+div#content div.reseaux a.n{
+
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Sen-Bold", sans-serif;
+	color : black;
+	position : relative;
+	width: 130px;
+	left: 60px;
+	top : 7px;
+}
+
+h4{
+	font-family: "Sen-Bold", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Sen-Bold", sans-serif;
+	color : black;
+}
+
+
+
+
+
+

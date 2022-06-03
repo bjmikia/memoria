@@ -1,0 +1,204 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Regular';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+
+/* accueil et deconnexion*/
+
+div#content div.accueil a{
+	font-family: "Sen-Regular", sans-serif;
+	border-radius: 10px;
+	font-size: 30px;
+	width : 50px;
+	position: relative;
+	left: 1685px;
+	top : 60px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+div#content div.deco a{
+	font-family: "Sen-Regular", sans-serif;
+	border-radius: 10px;
+	font-size: 30px;
+	width : 48px;
+	position: relative;
+	left: 1650px;
+	top : 120px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button3.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+/* mon profil*/
+
+div#content p{
+
+	font-family: "Bellota-Bold", sans-serif;
+	font-size: 70px;
+	position: relative;
+	left : 800px;
+	color : black;
+	width: 400px;
+}
+
+/*info*/
+
+div.info-perso{
+	z-index: 3;
+	font-family: "Sen-Bold", sans-serif;
+	font-size: 20px;
+	position: relative;
+	left : 850px;
+	top: 100px;
+	color : black;
+	width: 400px;
+
+}
+
+/* editer supprimer */
+div.editer a{
+	text-decoration: none;
+	color: black;
+}
+div.editer{
+	border-radius: 10px;
+	width : 170px;
+	background-image: url("../img/editer1.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+div.suppression a{
+	text-decoration: none;
+	color: black;
+}
+div.suppression{
+	border-radius: 10px;
+	width : 235px;
+	background-image: url("../img/editer2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+div.admin a{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	border-radius: 10px;
+	width : 235px;
+	background-image: url("../img/editer2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+}
+
+
+/*Les images */
+
+div.image {
+	z-index: 1;
+	width :max-content;
+	height: 730px;
+	position: absolute;
+	top: 200px;
+	bottom: 10px;
+}
+div.image div.img{
+	position: relative;
+	width : 300px;
+	left : 250px;
+}
+
+div.image div.img2{
+	position: relative;
+	width : 300px;
+	bottom : 150px;
+	left : 1400px;
+}
+
+div.image div.img3{
+	position: relative;
+	width : 300px;
+	left : 250px;
+}
+
+div.image div.img4{
+	position: relative;
+	width : 350px;
+	bottom: 160px;
+	left : 1340px;
+}
+
+
+/* Les reseaux */
+
+
+div#content div.reseau {
+	position : relative;
+	width : 250px;
+	left : 1650px;
+	top : 100px;
+}
+
+div#content div.reseaux{
+	z-index: 3;
+	position : relative;
+	width : 200px;
+	left : 1700px;
+	top : 50px;
+}
+div#content div.reseaux a.n{
+
+	position : relative;
+	left : 60px;
+}
+
+h3{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+	color : black;
+	position : relative;
+	width: 130px;
+	left: 60px;
+	top : 7px;
+}
+
+h4{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+}
+/* le bas de la bage */
+
+footer{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+}

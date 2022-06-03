@@ -1,0 +1,149 @@
+/* le "Apropos/contact"*/
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url("../img/background2.png") ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@font-face{
+	font-family: 'Bellota-Bold';
+    src: url('../font/Bellota-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Bold';
+    src: url('../font/Sen-Bold.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Sen-Regular';
+    src: url('../font/Sen-Regular.ttf') format("truetype");
+}
+
+/* le titre*/
+h1{
+	font-family: "Bellota-Bold", sans-serif;
+	color : black;
+	font-size: 60px;
+	position : relative;
+	width: 30%;
+	top : 20px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+/* le "FAQ" */ 
+
+h2{
+	font-family: "Sen-Bold", sans-serif;
+	color : black;
+	font-size: 40px;
+	position : relative;
+	width : 200px;
+	top : 240px;
+	left : 120px;
+
+}
+
+/* Pour retourner à l'accueil*/
+
+div.accueil ul li{
+	list-style-type: none;
+	font-size: 30px;
+
+}
+
+div.accueil ul li a{
+	font-family: "Sen-Regular", sans-serif;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+	background-image: url("../img/gold-button2.png") ;
+	background-position: center;
+	background-size: no-repeat;
+	padding: 20px 13px;
+	width : 8px;
+	position: relative;
+	left: 1650px;
+	bottom: 100px;
+}
+/* le bloc de faq */
+
+div.faq{
+	font-family: "Sen-Regular", sans-serif;
+	font-size: 20px;
+	color: black;
+	width: 60%;
+	position: relative;
+	left : 400px;
+}
+/* Poser la question */
+div.poser p {
+	font-family: "Sen-Bold", sans-serif;
+	position: relative;
+	width : 500px;
+	left : 40px;
+	color: black;
+	font-size: 30px;
+}
+/* formulaire*/
+div.form {
+	font-family: "Sen-Bold", sans-serif;
+	color: black;
+	position: relative;
+	width: 600px;
+	left : 500px;
+}
+input, textarea {
+	border-radius: 10px;
+}
+
+/*les erreurs*/
+h6{
+	font-family: "Sen-Regular", sans-serif;
+	text-align: center;
+	color: red;
+	position: relative;
+	top : 900px;
+	font-size: 15px;
+
+}
+/* Tout ce qui est nos reseau etc */
+h3{
+	font-family: "Sen-Regular", sans-serif;
+	color: black;
+	position : relative;
+	width: 150px;
+	left: 60px;
+	top : 7px;
+}
+
+div#content div.reseau {
+	font-family: "Sen-Regular", sans-serif;
+	color: black;
+	position : relative;
+	width : 250px;
+	left : 1650px;
+	top : 50px;
+}
+
+
+div#content div.reseaux{
+	position : relative;
+	width : 200px;
+	left : 1700px;
+	top : 50px;
+}
+div#content div.reseaux a.n{
+	position : relative;
+	left : 60px;
+}
+/* le pied de la page*/
+
+footer{
+	font-family: "Sen-Regular", sans-serif;
+	color : black;
+}
